@@ -25,5 +25,31 @@
     animation: spikeMov 1s infinite linear;
 }
 @keyframes spikeMov {
-    
+    0% {
+        left: 580px;
+    }
+    100% {
+        left: -20px;
+    }
+}
+
+.jump {
+    animation: jump 0.3s linear;
+}
+@keyframes jump {
+    0% {
+        top: 150px;
+    }
+    30% {
+        top: 130px;
+    }
+    50% {
+        top: 50px;
+    }
+    80% {
+        top: 80px;
+    }
+    100% {
+        top: 150px;
+    }
 }
